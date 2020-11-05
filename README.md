@@ -42,4 +42,4 @@ ASP.NET Core 3.1 Runtime (v3.1.3) - Windows Hosting Bundle
 
 ## Autores
 
-* **Caio César Alves de Souza** - *Desenvolvedor inicial* - [Contato](https://linkedin.com/in/caioalvs/)
+* **Caio César Alves de Souza** - *Desenvolvedor inicial* - [Contato](https://linkedin.com/in/caio-souza-dev/)
