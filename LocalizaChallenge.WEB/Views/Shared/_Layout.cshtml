@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - LocalizaChallenge.WEB</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <!-- Icons -->
+    <link href="~/vendor/nucleo/css/nucleo.css" rel="stylesheet" asp-append-version="true">
+    <link href="~/vendor/@@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet" asp-append-version="true">
+    <!-- Argon CSS -->
+    <link type="text/css" href="~/css/argon.css?v=1.2.0" rel="stylesheet" asp-append-version="true">
+
+</head>
+<body>
+    <partial name="_Navbar" />
+
+    <div class="bg-default">
+        <main role="main" class="main-content pb-3">
+            @RenderSection("IdentityHeader", false)
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/Home/Home.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
